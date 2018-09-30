@@ -120,86 +120,83 @@ aside
     padding: 25px;
 }
   
-   /* For desktop: */
-   /* For desktop: 768px*/
-   @media only screen and (max-width: 768px) {
-    .header{ width:auto;
-    position: static;}
+    /* For desktop: */
+@media only screen and (max-width: 768px) {
+    
+.header{ width:auto;
+    position: static;
+    padding:0}
 
-    .footer{width:768px;
-      position:fixed}
+.footer{width:768px;
+    position:fixed;}
 
-    ul{width:auto;}
+ul{width:auto;}
 
-    li{width:auto;}
+li{width:auto;}
 
-    .wrapper{width:auto;
+.wrapper{width:auto;
     left:auto;}
 
-   .contents
-{
+.contents{
     clear: both;
     left:0;
     padding: 30px;
     margin:50px;
 }
 
-        h1{
-          width:auto;
-        left:5%;}
+h1{width:auto;
+   left:5%;}
 
-        body{  
-    height: 50px;
+body{height: 50px;
 }
-    }
+
+}
+
 /*Media Query for Screen Size 640px*/  /* For desktop: */
   
   @media only screen and (max-width: 640px) {
-  
-    .header{ width:640px;
+  /*Class settings*/
+    .header{width:640;
       position:static;
         padding:0px;
-        }
+    }
 
-        .footer{width:640px;}
-
-        ul{
+    .footer{width:640px;
+        position:fixed;}
+    
+    ul{
         list-style:none;
         position:relative;
         left:25%;
-        }
+    }
 
-        li{
-          float:left;
+    li{float:left;
           position:relative;
-        }
-body{  
-margin-top:100px;
-    height: 500px;
-}
-        .wrapper{width:auto;}
+    }
 
-.contents
-{
-    clear: both;
+    body{  
+        margin-top:70px;
+        height: 500px;
+    }
+    .wrapper{width:auto;}
+
+    .contents{clear: both;
     left:0;
     padding: 30px;
     margin:50px;
-}
+    }
 
-            h1{width:640px;
-            position:fixed;
-            padding:10px;
-            left:0;
-            top:0;}
+    h1{width:640px;
+        position:fixed;
+        padding:10px;
+        left:0;
+        top:0;}
 
-            aside 
-            {
-             float:none; 
-             width:50%;
-             height:50%;
-            }
-
+    aside {
+        float:none; 
+        width:50%;
+        height:50%;
+    }
 }
 /* For desktop: */
 /*
