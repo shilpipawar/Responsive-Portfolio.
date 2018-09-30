@@ -120,6 +120,36 @@ aside
     padding: 25px;
 }
   
+/* For desktop:980px */
+@media only screen and (max-width: 980px) {
+    .header{ width:auto;
+        position: static;
+        padding:0px;}
+    
+    .footer{width:980px;
+        position:fixed;}
+    
+    ul{width:auto;}
+    
+    li{width:auto;}
+    
+    .wrapper{width:auto;
+        left:auto;}
+    
+    .contents{
+        clear: both;
+        left:0;
+        padding: 30px;
+        margin:50px;
+    }
+    
+    h1{width:auto;
+       left:5%;}
+    
+    body{height: 50px;
+    }
+    }
+     /* For desktop: */
     /* For desktop: */
 @media only screen and (max-width: 768px) {
     
@@ -198,34 +228,3 @@ body{height: 50px;
         height:50%;
     }
 }
-
-/* For desktop:980px */
-@media only screen and (max-width: 980px) {
-    .header{ width:auto;
-        position: static;
-        padding:0px;}
-    
-    .footer{width:980px;
-        position:fixed;}
-    
-    ul{width:auto;}
-    
-    li{width:auto;}
-    
-    .wrapper{width:auto;
-        left:auto;}
-    
-    .contents{
-        clear: both;
-        left:0;
-        padding: 30px;
-        margin:50px;
-    }
-    
-    h1{width:auto;
-       left:5%;}
-    
-    body{height: 50px;
-    }
-    }
-     /* For desktop: */
