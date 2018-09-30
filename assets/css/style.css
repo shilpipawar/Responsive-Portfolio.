@@ -144,7 +144,9 @@ aside
     }
     
     h1{width:auto;
-       left:5%;}
+        height:auto;
+        left:5%;
+        padding:3px;}
     
     body{height: 50px;
     }
@@ -175,7 +177,9 @@ li{width:auto;}
 }
 
 h1{width:auto;
-   left:5%;}
+    height:auto;
+    left:5%;
+    padding:3px;}
 
 body{height: 50px;
 }
@@ -221,7 +225,7 @@ body{height: 50px;
         padding:10px;
         left:0;
         top:0;}
-
+    
     aside {
         float:none; 
         width:50%;
