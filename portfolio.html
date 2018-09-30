@@ -1,0 +1,115 @@
+<!--Portfolio Page for My Portfolio-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <!--Adding BootstrapCDN to my portfolio page-->
+  <!-- <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="sickStyles.css"> -->
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>About Me</title>
+
+    <!--Adding CSS Style to my portfolio page-->
+    <link rel="stylesheet" href="assets/css/Reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolioStyle.CSS">
+
+  </head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="header">
+      <h1>Shilpa Pawar</h1>
+      <ul id="MenuStyle">
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <li>
+          <a href="index.html">About</a>
+        </li>
+
+      </ul>
+    </div>
+    <section class="contents">
+
+      <h2>Portfolio</h2>
+      <hr>
+
+      <div class="row">
+        <div class="column">
+          <div class="imgcontainer">
+            <img src="assets/images/IMG_8269.JPG" alt="Nature" style="width:45%;height:45%;">
+            <div class="imgtext">
+              <h4>Nature</h4>
+            </div>
+          </div>
+          </div>
+          <div class="column">
+              <div class="imgcontainer">
+                  <img src="assets/images/BLUE REFLECTION.jpg" alt="Light" style="width:45%;height:45%;">
+                  <div class="imgtext">
+                    <h4>Light</h4>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="column">
+              <div class="imgcontainer">
+                  <img src="assets/images/Dark.JPG" alt="Dark" style="width:45%;height:45%;">
+                  <div class="imgtext">
+                    <h4>Dark</h4>
+                  </div>
+                </div>
+          </div>
+          <div class="column">
+              <div class="imgcontainer">
+                  <img src="assets/images/Fun.JPG" alt="Fun" style="width:45%;height:45%;">
+                  <div class="imgtext">
+                    <h4>Fun</h4>
+                  </div>
+                </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="column">
+              <div class="imgcontainer">
+                  <img src="assets/images/IMG_5809.JPG" alt="Happyness" style="width:45%;height:45%;">
+                  <div class="imgtext">
+                    <h4>Happyness</h4>
+                  </div>
+                </div>
+          </div>
+        </div>
+
+        <!-- The expanding image container -->
+        <div class="container">
+          <!-- Close the image -->
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+          <!-- Expanded image -->
+          <img id="expandedImg" style="width:100%">
+
+
+        </div>
+    </section>
+
+    <div class="footer">
+      Copyright &#169;
+    </div>
+</body>
+
+</html>

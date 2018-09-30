@@ -1,0 +1,50 @@
+/*Portfolio.html style*/
+.column {
+    float: left;
+    width: 35%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.imgcontainer {
+    position: relative; 
+    max-width: 1000px; /* Maximum width */
+    margin: 0 auto;
+}
+
+/* Expanding image text */
+.imgcontainer .imgtext {
+  position: absolute; /* Position the background text */
+  bottom: 15%; /* At the bottom. Use top:0 to append it to the top */
+  background-color:#4aaaa5;
+  color:#ffffff;
+  width: 45%; /* Full width */
+  padding: 5px; /* Some padding */
+}
+
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
